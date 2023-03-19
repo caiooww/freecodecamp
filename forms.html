@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <title>
+        Forms
+    </title>
+    <meta charset="utf-8">
+    <meta name="author" content="CaioW">
+    <metaname="description" content="gatos aleatorios">
+        <link rel="icon" href="/ibagens/cat.png">
+        <link rel="stylesheet" href="/style.css" </head>
+
+
+<body>
+    <header>
+        <h1>Forms 😺</h1>
+        <nav aria-label="menu principal">
+            <ul id="lista">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/index.html#gostam">coisas que gatos gostam</a></li>
+                <li><a href="/index.html#naoGostam">coisas que gatos nao gostam</a></li>
+                <li><a href="/gatinhosfofos.html">gatos aleatorios</a> </li>
+            </ul>
+    </header>
+
+    <main>
+        <article>
+            <h2>Formulário de cadastro</h2>
+            <figure>
+                <img src="https://pbs.twimg.com/media/Flq3XziXkAUD-_f.png" alt="Retalha Forms">
+                <figcaption>Retalha Forms</figcaption>
+            </figure>
+            <form action="https://formsubmit.co/caiomksp@gmail.com" method="POST" />
+
+            <fieldset>
+                <legend>Informações pessoais e do gato</legend>
+                <p><label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                    <label for="nomegato">Qual o nome do seu gato?</label>
+                    <input type="text" name="nomegato" id="nomegato" placeholder="Digite o nome do seu gato" required>
+                </p>
+
+                <p><label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required>
+                    <label for="emailgato">E-mail do seu gato:</label>
+                    <input type="email" name="emailgato" id="emailgato" placeholder="Digite o e-mail do seu gato">
+                </p>
+
+                <p><label for="quantosgatos">Quantos gatos você tem?</label>
+                    <input type="number" name="quantosgatos" id="quantosgatos"
+                        placeholder="Digite a quantidade de gatos" required>
+                </p>
+
+                <p><label for="gatorua">Seu gato tem acesso a rua?</label> </p>
+                <p><input type="radio" name="gatorua" id="sim" value="sim" required>
+                    <label for="sim">Sim</label>
+                    <input type="radio" name="gatorua" id="nao" value="nao" required>
+                    <label for="nao">Não</label>
+                </p>
+
+                <p><label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone" required>
+                    <label for="data">Data de nascimento:</label>
+                    <input type="date" name="data" id="data" required>
+                </p>
+
+                <p>
+                    <label for="Sexo do gato">Sexo do gato:</label>
+                    <input type="radio" name="Sexo do gato" id="masculino" value="masculino" required>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="Sexo do gato" id="feminino" value="feminino" required>
+                    <label for="feminino">Feminino</label>
+                </p>
+
+                <p><label for="cor">Cor:</label>
+                    <input type="color" name="cor" id="cor" required>
+
+                    <label for="cor2">Cor secundaria</label>
+                    <input type="color" name="cor2" id="cor2">
+                </p>
+
+                <p><label for="gatofoto">Foto do seu gato:</label>
+                    <input type="file" name="gatofoto" id="gatofoto" required>
+                    <label for="legendagato">legenda</label>
+                    <textarea name="legendagato" id="legendagato" cols="30" rows="10"> </textarea>
+                </p>
+
+
+
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado" required>
+                    <option value="ac">Acre</option>
+                    <option value="al">Alagoas</option>
+                    <option value="ap">Amapá</option>
+                    <option value="am">Amazonas</option>
+                    <option value="ba">Bahia</option>
+                    <option value="ce">Ceará</option>
+                    <option value="df">Distrito Federal</option>
+                    <option value="es">Espírito Santo</option>
+                    <option value="go">Goiás</option>
+                    <option value="ma">Maranhão</option>
+                    <option value="mt">Mato Grosso</option>
+                    <option value="ms">Mato Grosso do Sul</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="pa">Pará</option>
+                    <option value="pb">Paraíba</option>
+                    <option value="pr">Paraná</option>
+                    <option value="pe">Pernambuco</option>
+                    <option value="pi">Piauí</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="rn">Rio Grande do Norte</option>
+                    <option value="rs">Rio Grande do Sul</option>
+                    <option value="ro">Rondônia</option>
+                    <option value="rr">Roraima</option>
+                    <option value="sc">Santa Catarina</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="se">Sergipe</option>
+                    <option value="to">Tocantins</option>
+                </select>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade" required>
+
+                <label for="cep">CEP:</label>
+                <input type="text" name="cep" id="cep" placeholder="Digite seu CEP" required>
+
+            </fieldset>
+            <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
+
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <p>© 2023 CaioW</p>
+    </footer>
+
+</body>
+
+</html>
